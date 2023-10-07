@@ -7,7 +7,7 @@ import { Header } from '@/components/Header'
 const prosto = Prosto_One({ subsets: ['latin'], weight: "400" })
 
 export const metadata: Metadata = {
-  title: 'Portfolio TarreDev - NextJS 13',
+  title: 'Portfolio JaredDev',
   description: 'Portfolio animated',
 }
 
