@@ -4,7 +4,7 @@ import { Metadata } from 'next'
 
 
 export const metadata: Metadata = {
-  title: 'Portfolio TarreDev - NextJS 13',
+  title: 'Portfolio JaredDev - NextJS 13',
   description: 'Portfolio animated ',
 }
 
