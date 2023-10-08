@@ -29,8 +29,8 @@ body {
 #cover {
   background: linear-gradient(
     90.21deg,
-    rgba(41, 41, 41, 0.5) -5.91%,
-    rgba(161, 161, 161, 0.5) 111.58%
+    rgba(192,192,192) -5.91%,
+    rgba(43,43,43) 111.58%
   );
   display: flex;
   min-height: 100vh;

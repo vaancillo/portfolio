@@ -1,4 +1,4 @@
-import { RiInstagramLine, RiTwitterXFill, RiGithubFill } from "react-icons/ri";
+import { RiInstagramLine, RiTwitterXFill, RiGithubFill, RiLinkedinBoxFill } from 'react-icons/ri'
 
 export const socialNetworks = [
   {
@@ -13,4 +13,8 @@ export const socialNetworks = [
     logo: <RiTwitterXFill size="40" />,
     src: "https://twitter.com/jaredmazapann",
   },
+  {
+    logo: <RiLinkedinBoxFill size="40" />,
+    src: "www.linkedin.com/in/jared-p-9aba09271",
+  }
 ];

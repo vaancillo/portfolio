@@ -27,7 +27,7 @@ export const optionsParticles = {
       value: "#202020",
     },
     links: {
-      color: "#202020",
+      color: "#242424",
       distance: 150,
       enable: true,
       opacity: 0.5,
