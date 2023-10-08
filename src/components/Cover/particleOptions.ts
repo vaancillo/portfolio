@@ -24,10 +24,10 @@ export const optionsParticles = {
   },
   particles: {
     color: {
-      value: "#fff",
+      value: "#202020",
     },
     links: {
-      color: "#fff",
+      color: "#202020",
       distance: 150,
       enable: true,
       opacity: 0.5,
