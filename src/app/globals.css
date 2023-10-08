@@ -2,6 +2,21 @@
 @tailwind components;
 @tailwind utilities;
 
+/* html::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+  background-image: url("./1aa2008c04d15f46d38b797cb1452ed4.gif");
+  background-repeat: no-repeat;
+  background-size: cover;
+  filter: blur(20px);
+  border: none;
+} */
+
 body {
   background: #1f1934;
   color: #fff;
@@ -14,8 +29,8 @@ body {
 #cover {
   background: linear-gradient(
     90.21deg,
-    rgba(170, 54, 124, 0.5) -5.91%,
-    rgba(74, 47, 189, 0.5) 111.58%
+    rgba(41, 41, 41, 0.5) -5.91%,
+    rgba(161, 161, 161, 0.5) 111.58%
   );
   display: flex;
   min-height: 100vh;

@@ -11,7 +11,7 @@ export function Header() {
                 <div className='container justify-between mx-auto md:flex'>
                     <Link href='/'>
                         <h1 className='my-3 text-4xl text-center text-white md:text-left'>Jared
-                           <span className='text-secondary'>Portocarrero</span>
+                           <span className='text-[#888787]'>Portocarrero</span>
                         </h1>
                     </Link>
                     <div className='flex items-center justify-center gap-7'>

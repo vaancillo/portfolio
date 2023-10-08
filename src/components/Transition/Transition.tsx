@@ -1,7 +1,14 @@
-
+"use client"
+import { AnimatePresence, motion } from "framer-motion"
+import { transitionVariantsPage } from "@/utils/motionTransitions"
 
 export function Transition() {
     return (
-        <div>Transition</div>
+        <>
+            <AnimatePresence mode='wait'>
+
+            </AnimatePresence>
+        </>
+        
     )
 }
