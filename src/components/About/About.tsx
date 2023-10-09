@@ -5,13 +5,11 @@ import { motion } from 'framer-motion'
 import { dataAboutSkills, dataCounter } from './About.data'
 import CountUp from 'react-countup'
 import { useState } from 'react'
+import { BiDownArrow, BiRightArrow } from 'react-icons/bi'
 
 export default function About() {
-    const [itemIndex, setItemIndex] = useState(0)
+    const [index, setIndex] = useState(0)
 
-    const handleClick = () => {
-        setItemIndex(itemIndex)
-    }
   return (
     <div className='items-center min-h-screen px-6 mx-auto align-middle mt-36 md:mt-0 md:flex md:max-w-4xl pb-36 md:pb-0'>
         <Avatar />
@@ -40,11 +38,15 @@ export default function About() {
                 {dataAboutSkills.map((dataText, itemIndex) => {
                     const {id, text} = dataText
                     return (
-                        <div key={id} className={`${itemIndex === id ? 'text-[#fff] duration-300 transition-all border-[#fff]' : 'border-white'} cursor-pointer md:text-lg relative px-2 md:px-8 py-4 border-2 rounded-xl flex justify-between items-center my-3`}
-                         onClick={handleClick}
+                        <div key={id} className={`${index === id ? 'text-[#838383] duration-300 transition-all border-[#838383]' : 'border-white'} cursor-pointer md:text-lg relative px-2 md:px-8 py-4 border-2 rounded-xl flex justify-between items-center my-3`}
+                         onClick={() => setIndex(itemIndex)}
                         >
                             <p className='mr-4 text-md md-text-lg'>{text}</p>
-                            
+                            {index === id ? (
+                                <BiDownArrow />
+                            ) : (
+                                <BiRightArrow />
+                            )}
                         </div>
                     )
                 })}   
