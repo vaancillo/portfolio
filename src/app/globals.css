@@ -18,13 +18,17 @@
 } */
 
 body {
-  background: #1f1934;
+  background: linear-gradient(
+    90.21deg,
+    rgba(192,192,192) -5.91%,
+    rgba(43,43,43) 111.58%
+  );
   color: #fff;
 }
 
-::selection {
+/* ::selection {
   background-color: rgba(74, 47, 189, 0.5);
-}
+} */
 
 #cover {
   background: linear-gradient(

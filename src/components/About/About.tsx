@@ -6,22 +6,21 @@ import { dataAboutSkills, dataCounter } from './About.data'
 import CountUp from 'react-countup'
 import { useState } from 'react'
 import { BiDownArrow, BiRightArrow } from 'react-icons/bi'
-import { Cover } from '../Cover'
 
 export default function About() {
     const [index, setIndex] = useState(0)
 
   return (
+    <div className='bg-[#131424]/50 w-full z-10'>
     <div className='items-center min-h-screen px-6 mx-auto align-middle mt-36 md:mt-0 md:flex md:max-w-4xl pb-36 md:pb-0'>
         <Avatar />
-
         <motion.div 
         initial={motionTransitionsAbout.initial} 
         animate={motionTransitionsAbout.animate}
         transition={motionTransitionsAbout.transition}
         >
             <h1 className='mb-6 md:text-4xl'>Creating websites with <br /> <span className='text-[#838383]'>spectacular designs.</span></h1>
-            <p className=''>My primary goal is to secure my first job in the field. I believe I am well-prepared to achieve my objectives within a company. I am responsible, respectful, and friendly ;). Currently, I am in a continuous learning process, dedicating 6 to 8 hours of my day to further develop my skills and become a FullStack professional. It would be a fantastic opportunity for me to show that I can make a significant contribution to any company that believes in my skills and abilities.</p>
+            <p className=''>I am currently in a process of learning Typescript and Nextjs and I dedicate about 6 to 8 hours of my day to continue learning to become a FullStack profile and contribute as much as possible to companies, for me it would be a great opportunity to demonstrate that I can contribute a lot to the company that trusts in my skills and abilities.</p>
 
             <div className='grid justify-between grid-cols-2 gap-3 my-8 md:flex md:grid-cols-4 md:gap-6'>
                 {dataCounter.map(({id, endCounter, text, lineRight, lineRightMobile}) => (
@@ -60,6 +59,7 @@ export default function About() {
                 ))}
             </div>
         </motion.div>
+    </div>
     </div>
   )
 }

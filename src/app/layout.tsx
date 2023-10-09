@@ -1,10 +1,10 @@
 import { Navbar } from '@/components/Navbar'
 import './globals.css'
 import type { Metadata } from 'next'
-import { Prosto_One } from 'next/font/google'
+import { Roboto } from 'next/font/google'
 import { Header } from '@/components/Header'
 
-const prosto = Prosto_One({ subsets: ['latin'], weight: "400" })
+const roboto = Roboto({ subsets: ['latin'], weight: "400" })
 
 export const metadata: Metadata = {
   title: 'Portfolio JaredDev',
@@ -18,7 +18,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="es">
-      <body className={prosto.className}>
+      <body className={roboto.className}>
         <Navbar />
         <Header />
         {children}
