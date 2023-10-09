@@ -9,14 +9,14 @@ export const dataCounter = [
   {
     id: 1,
     endCounter: 10,
-    text: "Clientes satisfechos",
+    text: "Satisfied customers",
     lineRight: true,
     lineRightMobile: false,
   },
   {
     id: 2,
     endCounter: 70,
-    text: "Proyectos finalizados",
+    text: "Completed projects",
     lineRight: true,
     lineRightMobile: true,
   }
@@ -39,7 +39,7 @@ export const dataAboutSkills = [
   },
   {
     id: 1,
-    text: "Experiencia",
+    text: "Experience",
     skills: [
       {
         title: "Malit",
@@ -49,10 +49,10 @@ export const dataAboutSkills = [
   },
   {
     id: 2,
-    text: "Estudios",
+    text: "Studies",
     skills: [
       {
-        title: "Preparatoria",
+        title: "Preparatory",
         date: "in progress",
       },
       {

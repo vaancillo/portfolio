@@ -6,6 +6,7 @@ import { dataAboutSkills, dataCounter } from './About.data'
 import CountUp from 'react-countup'
 import { useState } from 'react'
 import { BiDownArrow, BiRightArrow } from 'react-icons/bi'
+import { Cover } from '../Cover'
 
 export default function About() {
     const [index, setIndex] = useState(0)
@@ -20,7 +21,7 @@ export default function About() {
         transition={motionTransitionsAbout.transition}
         >
             <h1 className='mb-6 md:text-4xl'>Creating websites with <br /> <span className='text-[#838383]'>spectacular designs.</span></h1>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Harum, id.</p>
+            <p className=''>My primary goal is to secure my first job in the field. I believe I am well-prepared to achieve my objectives within a company. I am responsible, respectful, and friendly ;). Currently, I am in a continuous learning process, dedicating 6 to 8 hours of my day to further develop my skills and become a FullStack professional. It would be a fantastic opportunity for me to show that I can make a significant contribution to any company that believes in my skills and abilities.</p>
 
             <div className='grid justify-between grid-cols-2 gap-3 my-8 md:flex md:grid-cols-4 md:gap-6'>
                 {dataCounter.map(({id, endCounter, text, lineRight, lineRightMobile}) => (
@@ -34,7 +35,7 @@ export default function About() {
                         </div>
                 ))}
             </div>
-            <div className='flex flex-col mt-10 mb-3 md:flex-row justify-evenly md:mt-28 md:mb-5'>
+            <div className='flex flex-col mt-10 mb-3 md:flex-row justify-between md:mt-28 md:mb-5'>
                 {dataAboutSkills.map((dataText, itemIndex) => {
                     const {id, text} = dataText
                     return (
