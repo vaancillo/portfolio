@@ -1,32 +1,25 @@
 export const dataCounter = [
   {
     id: 0,
-    endCounter: 10,
-    text: "Años de experiencia",
+    endCounter: 2,
+    text: "Years of experience",
     lineRight: true,
     lineRightMobile: true,
   },
   {
     id: 1,
-    endCounter: 80,
+    endCounter: 10,
     text: "Clientes satisfechos",
     lineRight: true,
     lineRightMobile: false,
   },
   {
     id: 2,
-    endCounter: 220,
+    endCounter: 70,
     text: "Proyectos finalizados",
     lineRight: true,
     lineRightMobile: true,
-  },
-  {
-    id: 3,
-    endCounter: 30,
-    text: "Premios ganadores",
-    lineRight: false,
-    lineRightMobile: false,
-  },
+  }
 ];
 
 export const dataAboutSkills = [

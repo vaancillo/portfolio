@@ -14,7 +14,7 @@ export function Introduction() {
          animate='show'
          exit='hidden'
         >
-            <Image src='/assets/me.png' priority width='400' height='200' alt='Avatar' />
+            <Image src='/assets/me.png' priority width='400' height='200' alt='Avatar' className='rounded-full border'/>
         </motion.div>
              
              <motion.div variants={fadeIn('left', 0.5)}
