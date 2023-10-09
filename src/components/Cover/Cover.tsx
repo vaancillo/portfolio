@@ -43,20 +43,20 @@ export function CoverAbout() {
     )
 }
 
-// export function CoverServices() {
-//     const particlesInit = useCallback(async (engine: Engine) => {
-//         await loadFull(engine)
-//     }, [])
+export function CoverServices() {
+    const particlesInit = useCallback(async (engine: Engine) => {
+        await loadFull(engine)
+    }, [])
 
-//     const particlesLoaded = useCallback(async () => { }, [])
-//     return (
-//         <div id='cover'>
-//             <Particles 
-//              className='absolute w-full h-full translate-z-0'
-//              id='tsparticles'init={particlesInit} loaded={particlesLoaded}
-//              options={optionsParticles}
-//             />
-//             <Services />
-//         </div>
-//     )
-// }
+    const particlesLoaded = useCallback(async () => { }, [])
+    return (
+        <div id='cover'>
+            <Particles 
+             className='absolute w-full h-full translate-z-0'
+             id='tsparticles'init={particlesInit} loaded={particlesLoaded}
+             options={optionsParticles}
+            />
+            <Services />
+        </div>
+    )
+}
