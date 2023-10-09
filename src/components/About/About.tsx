@@ -51,6 +51,13 @@ export default function About() {
                     )
                 })}   
             </div>
+            <div className='max-w-4xl p-4 mx-auto bg-[#838383]/20 rounded-xl'>
+                {dataAboutSkills[index].skills.map((items, index) => (
+                    <div key={index} className='flex justify-center max-w-md gap-4 mx-auto'>
+                        <span>{items.title} {' '} </span> - <span>{items.date}</span>
+                    </div>
+                ))}
+            </div>
         </motion.div>
     </div>
   )

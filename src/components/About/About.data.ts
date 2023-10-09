@@ -29,11 +29,11 @@ export const dataAboutSkills = [
     skills: [
       {
         title: "Frontend Developer",
-        date: "2017",
+        date: "2021",
       },
       {
         title: "Full Stack Developer",
-        date: "2020",
+        date: "2023",
       },
     ],
   },
@@ -42,12 +42,8 @@ export const dataAboutSkills = [
     text: "Experiencia",
     skills: [
       {
-        title: "Netflix Inc.",
-        date: "2015",
-      },
-      {
-        title: "Amazon",
-        date: "2020",
+        title: "Malit",
+        date: "2022-2023",
       },
     ],
   },
@@ -56,12 +52,12 @@ export const dataAboutSkills = [
     text: "Estudios",
     skills: [
       {
-        title: "Grado Universitario en Florida",
-        date: "2012-2016",
+        title: "Preparatoria",
+        date: "in progress",
       },
       {
-        title: "Máster desarrollo Frontend",
-        date: "2016-2018",
+        title: "DEV.F",
+        date: "2022-2023",
       },
     ],
   },
@@ -70,12 +66,12 @@ export const dataAboutSkills = [
     text: "Masters",
     skills: [
       {
-        title: "Frontend Developer",
-        date: "2017",
+        title: "Master in coding",
+        date: "2022",
       },
       {
-        title: "Full Stack Developer",
-        date: "2020",
+        title: "Master in Frontend",
+        date: "2022",
       },
     ],
   },
