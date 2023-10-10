@@ -10,6 +10,21 @@ import { useState } from "react"
 function Work() {
     const [expandedIndex, setExpandedIndex] = useState<number | null>(null)
 
+    const handleClick = (index: number) => {
+        setExpandedIndex(index === expandedIndex ? -1 : index)
+    }
+
+    const cardVariants = {
+        expanded: {
+            width: '360px',
+            opacity: 1
+        },
+        collapsed: {
+            width: '200px',
+            opacity: 1
+        }
+    }
+
   return (
     <div className='h-screen'>
         <div className='grid pb-32 md:min-h-screen mt-28 md:mt-0 place-items-center'>
@@ -27,7 +42,19 @@ function Work() {
              exit='hidden'
             >
                 {cardContent.map(({id, title, imageUrl, description, skills}) => (
-                    <motion.div key={id} className={`card cursor-pointer h-[400px] bg-auto bg-no-repeat bg-center rounded-[20px] ${id === expandedIndex ? 'expanded' : ''}`}>
+                    <motion.div key={id} className={`card cursor-pointer h-[400px] bg-auto bg-no-repeat bg-center rounded-[20px] ${id === expandedIndex ? 'expanded' : ''}`}
+                     initial={{opacity: 1}}
+                     variants={cardVariants}
+                     animate={id === expandedIndex ? 'expanded' : 'collapsed'}
+                     exit={{
+                       opacity: 1 
+                     }}
+                     transition={{ duration: 0.5 }}
+                     onClick={() => handleClick(id)}
+                     style={{
+                        backgroundImage: `url(/assets/${imageUrl})`
+                     }}
+                    >
                         <p>{title}</p>
                     </motion.div>
                 ))}
