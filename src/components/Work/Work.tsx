@@ -21,27 +21,28 @@ function Work() {
         },
         collapsed: {
             width: '200px',
-            opacity: 1
+            opacity: 0.5
         }
     }
 
   return (
-    <div className='h-screen'>
-        <div className='grid pb-32 md:min-h-screen mt-28 md:mt-0 place-items-center'>
+    <div className='bg-[#131424]/50 w-full z-10 h-screen'>
+        <div className='grid pb-36 md:min-h-screen mt-28 md:mt-0 place-items-center'>
             <motion.h1
              variants={fadeIn('left', 0.5)}
              initial='hidden'
              animate='show'
              exit='hidden'
              className='my-5 text-2xl md:text-4xl font-bold text-center'
-            >My<span className='text-[#838383]'> latest works</span></motion.h1>
+            >My latest works</motion.h1>
             <motion.div 
+             className='flex flex-col items-center h-full gap-5 px-2 md:flex-row'
              variants={fadeIn('up', 0.5)}
              initial='hidden'
              animate='show'
              exit='hidden'
             >
-                {cardContent.map(({id, title, imageUrl, description, skills}) => (
+                {cardContent.map(({id, title, imageUrl, link,  description, skills}) => (
                     <motion.div key={id} className={`card cursor-pointer h-[400px] bg-auto bg-no-repeat bg-center rounded-[20px] ${id === expandedIndex ? 'expanded' : ''}`}
                      initial={{opacity: 1}}
                      variants={cardVariants}
@@ -55,7 +56,22 @@ function Work() {
                         backgroundImage: `url(/assets/${imageUrl})`
                      }}
                     >
-                        <p>{title}</p>
+                        <div className='flex flex-col justify-end h-full'>
+                            <div className='card-footer rounded-b-[20px] bg-gray-800 bg-opacity-75 min-h-[100px] flex flex-col items-center justify-center py-3'>
+                                <h2 className='text-xl font-bold text-center text-white'>{title}</h2>
+                                {id === expandedIndex && (
+                                    <>
+                                      <p>{description}</p>
+                                      <p>{link}</p>
+                                      <div className='flex gap-5 mt-3'>
+                                         {skills.map((data, index) => (
+                                            <p key={index}>{data.icon}</p>
+                                         ))}
+                                      </div>
+                                    </>
+                                )}
+                            </div>
+                        </div>
                     </motion.div>
                 ))}
             </motion.div>

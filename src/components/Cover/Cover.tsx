@@ -7,6 +7,7 @@ import { optionsParticles } from './particleOptions'
 import { Introduction } from '../Introduction'
 import About from '../About/About'
 import { Services } from '../Services/Services'
+import Work from '../Work/Work'
 
 export function Cover() {
     const particlesInit = useCallback(async (engine: Engine) => {
@@ -74,7 +75,7 @@ export function CoverWorks() {
              id='tsparticles'init={particlesInit} loaded={particlesLoaded}
              options={optionsParticles}
             />
-            
+            <Work />
         </div>
     )
 }
