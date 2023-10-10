@@ -24,7 +24,7 @@ export function Introduction() {
              >
                 <h1 className='mb-5 text-4xl leading-tight md:mb-10'>Jared Portocarrero <br />
                 <span className='text-[#838383]'>Portfolio</span></h1>
-                <p className='max-w-sm mx-auto mb-10 text-xl md:max-w-2xl md:mx-0 md:mb-16 md:text-xl'>A frontend developer with a passion for creating beautiful and functional websites. <span> I am currently in a process of learning Typescript and Nextjs and I dedicate about 6 to 8 hours of my day to continue learning to become a FullStack profile and contribute as much as possible to companies, for me it would be a great opportunity to demonstrate that I can contribute a lot to the company that trusts in my skills and abilities.</span></p>
+                <p className='max-w-sm mx-auto mb-10 text-xl md:max-w-2xl md:mx-0 md:mb-16 md:text-xl'>A passionate frontend developer specialized in creating attractive and functional websites. <span> My approach focuses on combining design and technology to deliver exceptional web experiences that captivate users and meet project objectives.</span></p>
                 <div className='flex flex-col items-center gap-3 md:gap-10 md:flex-row'>
                     <Link href='/projects' className='px-6 py-3 my-2 transition-all border-2 cursor-pointer w-fit rounded-xl hover:shadow-md hover:shadow-white/50'>See projects</Link>
                     <Link href='/contact' className='px-6 py-3 my-2 transition-all border-2 cursor-pointer w-fit rounded-xl hover:shadow-md hover:shadow-white/50'>Contact me</Link>
