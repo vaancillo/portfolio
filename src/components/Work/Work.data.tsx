@@ -5,7 +5,7 @@ export const cardContent = [
     id: 0,
     title: "Malit",
     description: "Malit is a restaurant management tool created by a group of friends who are passionate about programming.",
-    imageUrl: "/malitmock.jpg",
+    imageUrl: "/Malit.jpg",
     link: 'https://www.malit.com.mx',
     skills: [
       {
