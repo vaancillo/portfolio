@@ -1,4 +1,9 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {}
-
-module.exports = nextConfig
+const nextConfig = {
+    images: {
+      domains: ['unavatar.io'],
+    },
+  };
+  
+  module.exports = nextConfig;
+  

@@ -1,30 +1,37 @@
 export const testimonialsData = [
   {
     id: 0,
-    name: "Juan Palomo",
+    userName: 'zMiguezz',
+    name: "Migue González",
     testimonial:
       "Lorem Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris vulputate enim urna, nec fringilla mauris mattis a. In mollis vitae velit ac vehicula.",
-    image: "profile1.png",
   },
   {
     id: 1,
-    name: "Juan Palomo",
+    userName: 'ClexyT',
+    name: "ClexyT",
     testimonial:
       "Lorem Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris vulputate enim urna, nec fringilla mauris mattis a. In mollis vitae velit ac vehicula.",
-    image: "profile2.png",
   },
   {
     id: 2,
-    name: "Juan Palomo",
+    useNamer: 'JHUMBERTTO',
+    name: "Jorge Humberto",
     testimonial:
       "Lorem Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris vulputate enim urna, nec fringilla mauris mattis a. In mollis vitae velit ac vehicula.",
-    image: "profile3.png",
   },
   {
     id: 3,
-    name: "Juan Palomo",
+    userName: 'chunksito',
+    name: "Bruno Acosta",
     testimonial:
       "Lorem Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris vulputate enim urna, nec fringilla mauris mattis a. In mollis vitae velit ac vehicula.",
-    image: "profile4.png",
   },
+  {
+    id: 4,
+    userName: 'Sambuel',
+    name: 'samuel gonzalez',
+    testimonial:
+      "Lorem Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris vulputate enim urna, nec fringilla mauris mattis a. In mollis vitae velit ac vehicula.",
+  }
 ];

@@ -8,6 +8,7 @@ import { Introduction } from '../Introduction'
 import About from '../About/About'
 import { Services } from '../Services/Services'
 import Work from '../Work/Work'
+import Testimonial from '../Testimonials/Testimonial'
 
 export function Cover() {
     const particlesInit = useCallback(async (engine: Engine) => {
@@ -79,4 +80,23 @@ export function CoverWorks() {
         </div>
     )
 }
+export function CoverTestimonials() {
+    const particlesInit = useCallback(async (engine: Engine) => {
+        await loadFull(engine)
+    }, [])
+
+    const particlesLoaded = useCallback(async () => { }, [])
+    return (
+        <div id='cover'>
+            <Particles 
+             className='absolute w-full h-full translate-z-0'
+             id='tsparticles'init={particlesInit} loaded={particlesLoaded}
+             options={optionsParticles}
+            />
+            <Testimonial />
+        </div>
+    )
+}
+
+
 

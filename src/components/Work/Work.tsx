@@ -57,7 +57,7 @@ function Work() {
                      }}
                     >
                         <div className='flex flex-col justify-end h-full'>
-                            <div className='card-footer rounded-b-[20px] bg-gray-800 bg-opacity-75 min-h-[100px] flex flex-col items-center justify-center py-3'>
+                            <div className='card-footer rounded-b-[20px] bg-gray-800 bg-opacity-75 min-h-[100px] flex flex-col items-center justify-center p-3'>
                                 <h2 className='text-xl font-bold text-center text-white'>{title}</h2>
                                 {id === expandedIndex && (
                                     <>
