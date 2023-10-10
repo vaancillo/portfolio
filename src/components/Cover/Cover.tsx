@@ -60,3 +60,22 @@ export function CoverServices() {
         </div>
     )
 }
+
+export function CoverWorks() {
+    const particlesInit = useCallback(async (engine: Engine) => {
+        await loadFull(engine)
+    }, [])
+
+    const particlesLoaded = useCallback(async () => { }, [])
+    return (
+        <div id='cover'>
+            <Particles 
+             className='absolute w-full h-full translate-z-0'
+             id='tsparticles'init={particlesInit} loaded={particlesLoaded}
+             options={optionsParticles}
+            />
+            
+        </div>
+    )
+}
+
