@@ -26,7 +26,7 @@ export const cardContent = [
     id: 1,
     title: "Firebase Auth",
     description: "A simple application of authentication with firebase google",
-    imageUrl: "/fireApp.png",
+    imageUrl: "/firebaseApp.jpg",
     link: 'https://fir-app-a2ec9.web.app',
     skills: [
       {
@@ -47,7 +47,7 @@ export const cardContent = [
     id: 2,
     title: "Redux App",
     description: "A aplication using redux",
-    imageUrl: "/reduxApp.jpg",
+    imageUrl: "/redux-toolkit.jpg",
     link: 'https://redux-rtc-crud.vercel.app',
     skills: [
       {
@@ -68,7 +68,7 @@ export const cardContent = [
     id: 3,
     title: "NextCRUD App",
     description: "This is a simple application CRUD, Create, Read, Update, Delete tasks using SQLite and PostgreSQL, Nextjs, Prisma and Tailwindcss",
-    imageUrl: "/crudApp.png",
+    imageUrl: "/nextjsprisma.jpg",
     link: 'https://nextjs-prisma-crud-ewxun8nyb-vaancillo.vercel.app',
     skills: [
       {
