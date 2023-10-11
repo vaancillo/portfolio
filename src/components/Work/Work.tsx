@@ -1,8 +1,6 @@
 "use client"
-
 import { fadeIn } from "@/utils/motionTransitions"
 import { Circle } from "../Circle"
-import Iphone from "../Mock/Iphone"
 import { motion } from "framer-motion"
 import { cardContent } from "./Work.data"
 import { useState } from "react"
