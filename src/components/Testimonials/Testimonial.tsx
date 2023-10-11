@@ -22,6 +22,7 @@ export default function Testimonial() {
               initial='hidden'
               animate='show'
               exit='hidden'
+          
               >
                 <TestimonialSlider />
               </motion.div>

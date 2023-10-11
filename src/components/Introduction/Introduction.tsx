@@ -26,8 +26,8 @@ export function Introduction() {
                 <span className='text-[#838383]'>Portfolio</span></h1>
                 <p className='max-w-sm mx-auto mb-10 text-xl md:max-w-2xl md:mx-0 md:mb-16 md:text-xl'>A passionate frontend developer specialized in creating attractive and functional websites. <span> My approach focuses on combining design and technology to deliver exceptional web experiences that captivate users and meet project objectives.</span></p>
                 <div className='flex flex-col items-center gap-3 md:gap-10 md:flex-row'>
-                    <Link href='/projects' className='px-6 py-3 my-2 transition-all border-2 cursor-pointer w-fit rounded-xl hover:shadow-md hover:shadow-white/50'>See projects</Link>
-                    <Link href='/contact' className='px-6 py-3 my-2 transition-all border-2 cursor-pointer w-fit rounded-xl hover:shadow-md hover:shadow-white/50'>Contact me</Link>
+                    <Link href='/works' className='px-6 py-3 my-2 transition-all border-2 cursor-pointer w-fit rounded-xl hover:shadow-md hover:shadow-white/50'>See projects</Link>
+                    <Link href='https://www.instagram.com/_jared1x_/' className='px-6 py-3 my-2 transition-all border-2 cursor-pointer w-fit rounded-xl hover:shadow-md hover:shadow-white/50'>Contact me</Link>
                 </div>
              </motion.div>
              </div>
