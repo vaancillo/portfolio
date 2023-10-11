@@ -15,6 +15,6 @@ export const socialNetworks = [
   },
   {
     logo: <RiLinkedinBoxFill size="40" />,
-    src: "www.linkedin.com/in/jared-p-9aba09271",
+    src: "https://www.linkedin.com/in/jared-p-9aba09271/",
   }
 ];
