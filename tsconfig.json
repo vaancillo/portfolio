@@ -22,6 +22,6 @@
       "@/*": ["./src/*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "src/components/Avatar/Avatar.jsx", "src/components/Mock/Iphone.jsx"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "src/components/React/ReactLogo.jsx", "src/components/Mock/Iphone.jsx"],
   "exclude": ["node_modules"]
 }

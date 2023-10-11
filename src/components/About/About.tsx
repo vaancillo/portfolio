@@ -1,6 +1,6 @@
 "use client"
 import { motionTransitionsAbout } from '@/utils/motionTransitions'
-import Avatar from '../Avatar/Avatar'
+import Avatar from '../React/ReactLogo'
 import { motion } from 'framer-motion'
 import { dataAboutSkills, dataCounter } from './About.data'
 import CountUp from 'react-countup'
